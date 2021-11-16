@@ -3,6 +3,9 @@ slideOptions:
   allottedMinutes: 8
 ---
 # 繁體中文 CC0 句庫 
+
+[![hackmd-github-sync-badge](https://hackmd.io/gJM-G1JQTpm1cWLzi3ox7g/badge)](https://hackmd.io/gJM-G1JQTpm1cWLzi3ox7g)
+
 ## Trad. Chinese CC0 Corpus
 
 - 句庫： [github.com/irvin/cc0-sentences](https://github.com/irvin/cc0-sentences/)
@@ -39,7 +42,7 @@ Mozilla 在 2018 年發起 [Common Voice](https://commonvoice.mozilla.org/zh-TW)
 
 因此我們[從 2018/6 開始](https://github.com/mozilla/common-voice/tree/main/server/data/zh-TW)，搜集了兩千句中文句子，以啟動該專案的中文錄音。
 
-此一份資料衍生成本專案
+此一份資料進一步衍生成本CC0句庫專案。
 
 ----
 
@@ -51,7 +54,8 @@ https://commonvoice.mozilla.org/
 
 https://commonvoice.mozilla.org/zh-TW/datasets
 
-![Common Voice 繁體中文資料量現況](https://i.imgur.com/OipVeDC.png)
+![Common Voice 繁體中文資料量現況](https://i.imgur.com/0LYpQrB.png)
+
 
 ---
 
@@ -123,28 +127,26 @@ https://commonvoice.mozilla.org/zh-TW/datasets
 
 - 社群捐贈文章、小說作品
 - 對話紀錄（g0v #rand0m 為主）
-- 政治人物講稿
-- 政府新聞稿
+- 政治人物（公務人員）講稿 & 政府新聞稿
 
 ---
 
 ## 資料現況 📈
 
-- 11,917 句／112,721 字
-- 不重複用字：3,137 字
+- 16,390 句
+- 3,269 不重複字
+- 1,025 發音
 
-（[統計](https://github.com/irvin/cc0-sentences/blob/master/README.md#phonetic-coverage)至 [2020/12/3 資料](https://github.com/irvin/cc0-sentences/commit/0ce78f4616198663c2556014ff35ecb1ea2b3dd7)）
+（[統計至 2021/10/19 資料](https://github.com/moztw/cc0-sentences/blob/master/README.md#phonetic-coverage)）
 
 ---
 
 ### 涵蓋範圍 📈
 
 - 字數
-    - 涵蓋 ~~72.4%~~ **78.2%** 常用字
-教育部 2015 常用字 P99.75，2811/3593
+    - 涵蓋 *91.0%* 常用字（教育部 2015 常用字 P99.75，3269/3593）
 - 發音
-    - 涵蓋 ~~63.7%~~ **64.6%** 中文發音
-根據注音符號表，1,012/1,567 音
+    - 涵蓋 *65.41%* 中文發音（根據注音輸入表計算，1,025/1,567 音）
 
 ---
 
@@ -179,9 +181,9 @@ https://commonvoice.mozilla.org/zh-TW/datasets
 - 建立流程文件
     - 語料處理方法、捐獻資料方法
 - 定期舉辦 workshop 招募更多成員
-    - 隔週三 workday、隔四週週六 workshop
+    - 隔週三 workday night、隔四週週六 workshop
 - 統計工具
-    - 上傳句子時，自動計算字數、句數、涵蓋範圍
+    - ~~上傳句子時，自動計算字數、句數、涵蓋範圍~~ (done!)
 
 ---
 
@@ -189,6 +191,7 @@ https://commonvoice.mozilla.org/zh-TW/datasets
 
 - 收集台語 & 原住民語語料
     - iTaigi、萌典資源
+    - [台語句子收集中!!](https://github.com/moztw/cc0-sentences/tree/master/nan-TW)
 - 建立可自行上傳、捐獻語料的機制
     - eg., 捐出你的 Line 對話
 - 建立可直接取用句子的 API
