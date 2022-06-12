@@ -2,7 +2,6 @@
 slideOptions:
   allottedMinutes: 1
 
-###### tags: `Common Voice`,`CC0-Corpus`
 ---
 # Common Voice 語音資料庫 & 華語、台語CC0句庫
 
@@ -418,3 +417,4 @@ Note:
     - [G0v Slack](https://join.g0v.tw/) #rand0m 成員
 
  -->
+ ###### tags: `Common Voice`,`CC0-Corpus`
